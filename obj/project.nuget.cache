@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OlSGcT7UXTiN/zNFNP0+2/H6wDX6rxEl5rcdw6GAts5KoqZH7W1+1fMTWHr9sQiAu5FrvBP6+2Lzx9B0V8QxZg==",
+  "dgSpecHash": "5oq5WnfYRF+4fT1oWtBsA9pq+vd7YhnEk3GkDU+eQ+SpVDK5XvFaBX5ZELeXBol0L2BgdKZwSM04u7LP9PXkzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\corne\\Desktop\\New folder (5)\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\corne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

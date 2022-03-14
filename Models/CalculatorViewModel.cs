@@ -1,6 +1,11 @@
-﻿namespace Calculator.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Calculator.Models
 {
-    public class CalculateModelView
+    public class CalculatorViewModel
     {
         public decimal FirstNumber { get; set; }
         public decimal SecondNumber { get; set; }
@@ -14,5 +19,4 @@
         Multiplication = '*',
         Division = '/'
     }
-
 }

@@ -18,30 +18,39 @@ namespace Calculator.Controllers
             _logger = logger;
         }
 
-        public IActionResult Add()
+        public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Subtract()
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Multiply()
+        public IActionResult Calculator(CalculatorViewModel model)
         {
-            return View();
+            ModelState.Clear();
+            switch (model.calculationMethod)
+            {
+                case CalculationMethod.Addition:
+                    model.Result = model.FirstNumber + model.SecondNumber;
+                    break;
+                case CalculationMethod.Subtraction:
+                    model.Result = model.FirstNumber - model.SecondNumber;
+                    break;
+                case CalculationMethod.Multiplication:
+                    model.Result = model.FirstNumber * model.SecondNumber;
+                    break;
+                case CalculationMethod.Division:
+                    model.Result = model.FirstNumber / model.SecondNumber;
+                    break;
+            }
+            return View(model);
         }
 
-        public IActionResult Divide()
-        {
-            return View();
-        }
+            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 
-
-
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
