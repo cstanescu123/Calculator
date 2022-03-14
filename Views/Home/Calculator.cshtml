@@ -1,6 +1,6 @@
 ﻿@model Calculator.Models.CalculatorViewModel
 
-@using (Html.BeginForm("Index", "Calculation", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("Calculator", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.LabelFor(m => m.FirstNumber) @Html.TextBoxFor(x => x.FirstNumber)
     <br />
