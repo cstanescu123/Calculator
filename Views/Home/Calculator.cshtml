@@ -1,13 +1,22 @@
 ﻿@model Calculator.Models.CalculatorViewModel
 
-@using (Html.BeginForm("Calculator", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
-{
-    @Html.LabelFor(m => m.FirstNumber) @Html.TextBoxFor(x => x.FirstNumber)
+<form asp-controller="Home" asp-action="Calculator">
+
+    <label asp-for="FirstNumber"></label>
+    <input asp-for="FirstNumber" />
     <br />
-    @Html.LabelFor(m => m.SecondNumber) @Html.TextBoxFor(x => x.SecondNumber)
+    <label asp-for="SecondNumber"></label>
+    <input asp-for="SecondNumber" />
     <br />
-    @Html.LabelFor(m => m.Result) @Html.TextBoxFor(x => x.Result)
     <br />
     @Html.DropDownListFor(m => m.calculationMethod, new SelectList(Enum.GetValues(typeof(CalculationMethod))))
-    <input type="submit" />
-}
+    <br />
+    <br />
+    <label asp-for="Result"></label>
+    <input asp-for="Result" />
+    <br />
+    <br />
+
+    <button type="submit">Submit</button>
+
+</form>
