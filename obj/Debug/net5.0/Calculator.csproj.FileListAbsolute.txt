@@ -79,3 +79,44 @@ C:\Users\cstanescu\OneDrive - KNEX\Desktop\New folder\Calculator\obj\Debug\net5.
 C:\Users\cstanescu\OneDrive - KNEX\Desktop\New folder\Calculator\obj\Debug\net5.0\Calculator.genruntimeconfig.cache
 C:\Users\cstanescu\OneDrive - KNEX\Desktop\New folder\Calculator\obj\Debug\net5.0\Calculator.csproj.CopyComplete
 C:\Users\cstanescu\OneDrive - KNEX\Desktop\New folder\Calculator\obj\Debug\net5.0\Razor\Views\Home\Calculator.cshtml.g.cs
+C:\Source\Calculator-Lab\bin\Debug\net5.0\appsettings.Development.json
+C:\Source\Calculator-Lab\bin\Debug\net5.0\appsettings.json
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.StaticWebAssets.xml
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.exe
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.deps.json
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.runtimeconfig.json
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.runtimeconfig.dev.json
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.dll
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.pdb
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.Views.dll
+C:\Source\Calculator-Lab\bin\Debug\net5.0\Calculator.Views.pdb
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.csproj.AssemblyReference.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.AssemblyInfoInputs.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.AssemblyInfo.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.RazorAssemblyInfo.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.RazorAssemblyInfo.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\scopedcss\bundle\Calculator.styles.css
+C:\Source\Calculator-Lab\obj\Debug\net5.0\staticwebassets\Calculator.StaticWebAssets.Manifest.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.TagHelpers.input.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.TagHelpers.output.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.RazorCoreGenerate.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Home\Calculator.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.RazorTargetAssemblyInfo.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.RazorTargetAssemblyInfo.cs
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.Views.pdb
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.dll
+C:\Source\Calculator-Lab\obj\Debug\net5.0\refint\Calculator.dll
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.pdb
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.genruntimeconfig.cache
+C:\Source\Calculator-Lab\obj\Debug\net5.0\ref\Calculator.dll
+C:\Source\Calculator-Lab\obj\Debug\net5.0\Calculator.csproj.CopyComplete

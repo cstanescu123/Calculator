@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5oq5WnfYRF+4fT1oWtBsA9pq+vd7YhnEk3GkDU+eQ+SpVDK5XvFaBX5ZELeXBol0L2BgdKZwSM04u7LP9PXkzw==",
+  "dgSpecHash": "+cacxHoRh2Rn4a1fu9gNcEmhx2S0ecxYzpNbNUDmtpdwdYbxnVk2JWmRTx3yB0zHF1JdOwS+GBoZ+gR6PPmQZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Source\\Calculator-Lab\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bbice\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\bbice\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\bbice\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\bbice\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
