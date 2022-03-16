@@ -4,18 +4,20 @@
 
     <ul class="wrapper">
         <li class="form-row">
-            <label asp-for="FirstNumber">Enter a number</label>
+            <label asp-for="FirstNumber">Enter a number:</label>
             <input asp-for="FirstNumber" />
         </li>
         <li class="form-row">
-            <label asp-for="SecondNumber">Enter another number</label>
+            <label asp-for="SecondNumber">Enter another number:</label>
             <input asp-for="SecondNumber" />
         </li>
-        <li class="form-row">
-            @Html.DropDownListFor(m => m.calculationMethod, new SelectList(Enum.GetValues(typeof(CalculationMethod))))
+
+        <li class="method">
+            <div class="method-label">Select calculation method:</div>
+            <div class="calculation">@Html.DropDownListFor(m => m.calculationMethod, new SelectList(Enum.GetValues(typeof(CalculationMethod))))</div>
         </li>
         <li class="form-row">
-            <label asp-for="Result">The result is</label>
+            <label asp-for="Result">The result is:</label>
             <input asp-for="Result" />
         </li>
         <li class="form-row">
@@ -54,5 +56,18 @@
         color: white;
         border: 0;
     }
+    .method {
+        display: flex;
+        justify-content: space-between;
+        padding: .25em;
+    }
+    .method-label {
+        flex: 1;
+    }
+    .calculation {
+        flex: 2;
+        padding: .5em;
+    }
+
 
 </style>
