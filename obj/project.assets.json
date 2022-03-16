@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cstanescu\\OneDrive - Knex\\Desktop\\New folder\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\cstanescu\\OneDrive - Knex\\Desktop\\New folder\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\cstanescu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cstanescu\\OneDrive - Knex\\Desktop\\New folder\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cstanescu\\AppData\\Roaming\\NuGet\\NuGet.Config",

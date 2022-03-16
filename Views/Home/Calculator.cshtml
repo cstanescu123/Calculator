@@ -2,21 +2,57 @@
 
 <form asp-controller="Home" asp-action="Calculator">
 
-    <label asp-for="FirstNumber"></label>
-    <input asp-for="FirstNumber" />
-    <br />
-    <label asp-for="SecondNumber"></label>
-    <input asp-for="SecondNumber" />
-    <br />
-    <br />
-    @Html.DropDownListFor(m => m.calculationMethod, new SelectList(Enum.GetValues(typeof(CalculationMethod))))
-    <br />
-    <br />
-    <label asp-for="Result"></label>
-    <input asp-for="Result" />
-    <br />
-    <br />
+    <ul class="wrapper">
+        <li class="form-row">
+            <label asp-for="FirstNumber">Enter a number</label>
+            <input asp-for="FirstNumber" />
+        </li>
+        <li class="form-row">
+            <label asp-for="SecondNumber">Enter another number</label>
+            <input asp-for="SecondNumber" />
+        </li>
+        <li class="form-row">
+            @Html.DropDownListFor(m => m.calculationMethod, new SelectList(Enum.GetValues(typeof(CalculationMethod))))
+        </li>
+        <li class="form-row">
+            <label asp-for="Result">The result is</label>
+            <input asp-for="Result" />
+        </li>
+        <li class="form-row">
+            <button type="submit">Submit</button>
+        </li>
 
-    <button type="submit">Submit</button>
+    </ul>
 
 </form>
+
+<style>
+     .wrapper {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+
+</style>

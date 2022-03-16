@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5oq5WnfYRF+4fT1oWtBsA9pq+vd7YhnEk3GkDU+eQ+SpVDK5XvFaBX5ZELeXBol0L2BgdKZwSM04u7LP9PXkzw==",
+  "dgSpecHash": "HRe3wCfRpaR4XsYTcwQe4XT8C77qSaEF6jVGfIBoVyI67XiU3ABJI6iUGpSHm64wqF7UZzRY2wfTKYibVPTkxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator.csproj",
+  "projectFilePath": "C:\\Users\\cstanescu\\OneDrive - KNEX\\Desktop\\New folder\\Calculator\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
