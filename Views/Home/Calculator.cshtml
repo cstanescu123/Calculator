@@ -32,8 +32,14 @@
     .flex-outer {
         background-color: whitesmoke;
         list-style-type: none;
-        padding: 0;
+        padding: 1em;
         border-radius: 3px;
+        outline-style: solid;
+        position: relative;
+        top: 50%;
+        transform: translateY(50%);
+        font-size: 150%;
+
     }
     .form-row {
         display: flex;
@@ -55,10 +61,11 @@
     }
     .method-label {
         flex: 1;
+        padding: .5em 1em .5em 0;
     }
     .calculation {
         flex: 2;
-        padding: .5em;
+        padding: .5em 1em .5em 0;
     }
     .submit-button {
         display: flex;
