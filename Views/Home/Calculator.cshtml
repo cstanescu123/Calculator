@@ -20,7 +20,7 @@
             <label asp-for="Result"><strong>The result is:</strong></label>
             <input asp-for="Result" />
         </li>
-        <li class="form-row">
+        <li class="submit-button">
             <button type="submit">Submit</button>
         </li>
 
@@ -46,15 +46,7 @@
     }
     .form-row > input {
         flex: 2;
-    }
-    .form-row > input,
-    .form-row > button {
         padding: .5em;
-    }
-    .form-row > button {
-        background: gray;
-        color: white;
-        border: 0;
     }
     .method {
         display: flex;
@@ -67,6 +59,12 @@
     .calculation {
         flex: 2;
         padding: .5em;
+    }
+    .submit-button {
+        display: flex;
+        justify-content: center;
+        background: whitesmoke;
+        color: white;
     }
 
 
