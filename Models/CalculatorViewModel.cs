@@ -2,9 +2,9 @@
 {
     public class CalculatorViewModel
     {
-        public decimal FirstNumber { get; set; }
-        public decimal SecondNumber { get; set; }
-        public decimal Result { get; set; }
+        public double FirstNumber { get; set; }
+        public double SecondNumber { get; set; }
+        public double Result { get; set; }
         public CalculationMethod calculationMethod { get; set; }
     }
     public enum CalculationMethod
